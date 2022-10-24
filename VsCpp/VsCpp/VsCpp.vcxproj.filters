@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="..\..\CPP-Learning\13.Basic Object-oriented Programming\ch13\ClassStaticMemberInHFile\Something.cpp">
+      <Filter>CPP-Learning\13.Basic Object-oriented Programming\ClassStaticMemberInHFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CPP-Learning\13.Basic Object-oriented Programming\ch13\ClassStaticMemberInHFile\use1.cpp">
+      <Filter>CPP-Learning\13.Basic Object-oriented Programming\ClassStaticMemberInHFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CPP-Learning\13.Basic Object-oriented Programming\ch13\ClassStaticMemberInHFile\use2.cpp">
+      <Filter>CPP-Learning\13.Basic Object-oriented Programming\ClassStaticMemberInHFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CPP-Learning\13.Basic Object-oriented Programming\ch13\ClassStaticMemberInHFile\ClassStaticMemberInHFile.cpp">
+      <Filter>CPP-Learning\13.Basic Object-oriented Programming\ClassStaticMemberInHFile</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="..\..\CPP-Learning\13.Basic Object-oriented Programming\ch13\ClassStaticMemberInHFile\Something.h">
+      <Filter>CPP-Learning\13.Basic Object-oriented Programming\ClassStaticMemberInHFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CPP-Learning\13.Basic Object-oriented Programming\ch13\ClassStaticMemberInHFile\use.h">
+      <Filter>CPP-Learning\13.Basic Object-oriented Programming\ClassStaticMemberInHFile</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CPP-Learning">
+      <UniqueIdentifier>{64fe38d0-5c3c-45b6-a475-33f0d898924c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPP-Learning\13.Basic Object-oriented Programming">
+      <UniqueIdentifier>{d3f238ec-2caa-48b5-8f25-434cd8639761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPP-Learning\13.Basic Object-oriented Programming\ClassStaticMemberInHFile">
+      <UniqueIdentifier>{1e6c46fe-7c26-40a4-abf1-59cf1c0d15f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
